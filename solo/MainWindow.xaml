@@ -1,0 +1,35 @@
+﻿<Window x:Class="solo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:solo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid Background="#eeeeee">
+        <Grid.RowDefinitions>
+            <RowDefinition>
+</RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+     </Grid.ColumnDefinitions>
+        <Border Margin="5,14,5,0" BorderThickness="1" Height="110" >
+            <Border.BorderBrush>
+                <SolidColorBrush Color="Black" Opacity="0.2"/>
+            </Border.BorderBrush>
+            <StackPanel  Background="#f3f3f4" Grid.Row="0" Grid.Column="0">
+                <TextBlock FontWeight="Bold">Brad Farkus</TextBlock>
+                <Image HorizontalAlignment="Left"  Height="80" Width="60" Source="/Resources/600px-TORONTOTOKYO_2021_Team_Spirit.jpg" />
+  
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
